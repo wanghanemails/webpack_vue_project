@@ -1,22 +1,24 @@
 {
-  "name": "webpack_vue_project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wanghanemails/webpack_vue_project.git"
-  },
-  "author": "wanghan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wanghanemails/webpack_vue_project/issues"
-  },
-  "homepage": "https://github.com/wanghanemails/webpack_vue_project#readme",
-  "devDependencies": {
-    "webpack-cli": "^3.1.1"
-  }
+    "name": "webpack_vue_project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --config webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wanghanemails/webpack_vue_project.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/wanghanemails/webpack_vue_project/issues"
+    },
+    "homepage": "https://github.com/wanghanemails/webpack_vue_project#readme",
+    "devDependencies": {
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.1"
+    }
 }
