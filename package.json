@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wanghanemails/webpack_vue_project/issues"
   },
-  "homepage": "https://github.com/wanghanemails/webpack_vue_project#readme"
+  "homepage": "https://github.com/wanghanemails/webpack_vue_project#readme",
+  "devDependencies": {
+    "webpack-cli": "^3.1.1"
+  }
 }
