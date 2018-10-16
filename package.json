@@ -2,10 +2,12 @@
     "name": "webpack_vue_project",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "private": true,
+    "main": "main.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "webpack --config webpack.config.js"
+        "start": "webpack --config webpack.config.js",
+        "build": "webpack"
     },
     "repository": {
         "type": "git",
@@ -18,7 +20,14 @@
     },
     "homepage": "https://github.com/wanghanemails/webpack_vue_project#readme",
     "devDependencies": {
+        "css-loader": "^1.0.0",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "html-webpack-plugin": "^3.2.0",
+        "style-loader": "^0.23.1",
         "webpack": "^4.20.2",
         "webpack-cli": "^3.1.1"
+    },
+    "dependencies": {
+        "lodash": "^4.17.11"
     }
 }
